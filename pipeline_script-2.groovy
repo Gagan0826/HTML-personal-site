@@ -26,7 +26,6 @@ pipeline {
                 sh 'cd jenkins-test-repo-1/HTML-personal-site-master/'
                 sh 'ls'
                 sh 'sudo cp -r /var/lib/jenkins/workspace/pipeline-2/jenkins-test-repo-1/HTML-personal-site-master/* /var/www/html'
-                // sh 'sudo chown -R www-data:www-data /var/www/html/jenkins-test-repo-1'
             }
         }
     }
